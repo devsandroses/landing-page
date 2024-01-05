@@ -5,7 +5,10 @@ body {
 }
 
 .header {
-    padding: 20px; display: flex; flex-direction: row; justify-content: space-between;
+    padding: 20px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
     background-color: #1F2937; color: #F9FAF8;
   }
 
@@ -25,31 +28,33 @@ body {
     gap: 20px;
 }
 
-.two-section {
+.hero {
     background-color: #1F2937; color: white;
-    padding: 20px;
     display: flex;
     flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
 }
 
-.hero-text{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.hero-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
-.hero-image {
-    display: flex;
-    padding: 12px;
-    margin: 12px;
-    gap: 20px;
-    justify-content: flex-end;
+
+.hero-right {
+  justify-content: flex-end;
+  display: flex;
 }
 
 button {
   border-radius: 15px;
   background-color: #3882F6; color: white;
 }
+
 
 img {
   border-radius: 15px;
@@ -72,11 +77,13 @@ img {
   .four-section {
     background-color: #E5E7EB;  
     padding: 48px;
+    flex-wrap: wrap;
   }
 
   .five-section {
     background-color: #3882F6; color: white; margin: 48px;
     padding: 48px; margin: 48px;
+    display: flex; justify-content: space-between;
     
   }
 
